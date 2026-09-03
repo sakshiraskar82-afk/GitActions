@@ -8,7 +8,7 @@ jobs:
        runs-on: ubuntu-latest
 
        steps:
-         - name: Checkout Repository
+         - name: Checkout Repository 
            uses: Actions/checkout@v4
          - name: Print Success Message
            run: echo "Code pushed successfully to the main branch!"
